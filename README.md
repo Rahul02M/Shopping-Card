@@ -25,7 +25,7 @@
 <br>
  - DESKTOP 
 <br>
-![shoping cart](https://github.com/Rahul02M/Shopping-Card/assets/133855195/a16cb3f1-fb0b-4d0c-a849-8bf209211415)
+
 
 <br>
 <br>
