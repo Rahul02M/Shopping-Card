@@ -23,7 +23,7 @@
 
 4 . Screenshots
 
-Desktop
+Desktop screen
 
 ![shoping cart](https://github.com/Rahul02M/Shopping-Card/assets/133855195/29cc1ce5-fad0-47d1-835d-a7747192b56d)
 
