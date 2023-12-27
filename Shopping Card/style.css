@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,800;0,900;1,100;1,700;1,800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: rgb(118, 122, 121);
+}
+
+.nav {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.box {
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  background-color: black;
+  top: -3px;
+  right: 0;
+  padding: 3px;
+  height: 18px;
+  width: 18px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 18px;
+  border-radius: 50%;
+  z-index: 98;
+}
+
+#cart-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 4rem;
+  margin: auto;
+  width: 100%;
+}
+
+h2.title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.shop-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  gap: 1.5rem;
+  justify-content: center;
+  align-content: center;
+}
+
+.dress-box {
+  position: relative;
+  background-color: #d6d6d6;
+  padding: 15px;
+  border-radius: 10%;
+}
+
+img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.pic {
+  overflow: hidden;
+}
+
+.pic:hover img {
+  border-radius: 5%;
+  transform: scale(1.27);
+}
+
+.dress-img {
+  transition: 0.4s;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.dress-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(80, 80, 80);
+}
+.dress-price {
+  font-weight: 600;
+}
+.add-cart {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.add-cart:hover {
+  background-color: rgb(80, 80, 80);
+}
+
+.cart {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 400px;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+  background-color: #d6d6d6;
+  box-shadow: 0 1px 4px rgba(40, 37, 37, 0.1);
+  z-index: 100;
+}
+
+.cart-active {
+  right: 0;
+  transition: 0.5s;
+}
+.cart-title {
+  text-align: center;
+  font-size: 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.cart-box {
+  display: grid;
+  grid-template-columns: 32% 50% 18%;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+}
+
+.cart-img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+.detail-box {
+  display: grid;
+  row-gap: 0.5rem;
+}
+.cart-dress-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2f3542;
+}
+.price-box {
+  display: flex;
+  gap: 50px;
+  font-weight: 600;
+  color: rgb(80, 80, 80);
+}
+.cart-dress-tittle {
+  font-size: 1rem;
+  font-weight: 550;
+  text-transform: uppercase;
+  color: rgb(80, 80, 80);
+}
+
+.Qty {
+  display: flex;
+  align-items: center;
+  color: #2f3542;
+}
+.card-quantity {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  width: 2.4rem;
+  text-align: center;
+  font-size: 1rem;
+}
+.cart-remove {
+  font-size: 24px;
+  cursor: pointer;
+}
+.cart-remove:hover {
+  color: rgb(182, 52, 52);
+}
+.total {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+}
+.total-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.total-price {
+  margin-left: 0.5rem;
+  font-weight: 600;
+}
+
+.btn-buy {
+  padding: 12px 20px;
+  background-color: #2f3542;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#cart-close {
+  position: absolute;
+  top: 1rem;
+  right: 0.8rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
