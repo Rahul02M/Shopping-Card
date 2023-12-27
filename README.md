@@ -20,3 +20,24 @@
 <br>
  This project is a great opportunity to practice your JavaScript skills without relying on external libraries. Happy coding! 🛒🌟
 
+
+4 . Screenshots
+<br>
+ - DESKTOP 
+<br>
+![shoping cart](https://github.com/Rahul02M/Shopping-Card/assets/133855195/dd855df5-8436-45b1-912b-2c92e9788d65)
+<br>
+<br>
+![shoping cart 2](https://github.com/Rahul02M/Shopping-Card/assets/133855195/ead506b8-be3d-4d45-959f-cd5fd73e6cce)
+<br>
+<br>
+
+- Mobile
+<br>
+<br>
+![shoping cart mobile](https://github.com/Rahul02M/Shopping-Card/assets/133855195/68140d84-1209-45c4-8ce7-9bbb1def51cf)
+
+
+
+
+
