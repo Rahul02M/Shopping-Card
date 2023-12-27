@@ -17,6 +17,6 @@
    - Update Functions: Update the cart based on user actions.<br>
    - Calculation: Calculate the total bill.<br>
    - Remove Item: Allow users to remove items from the cart.<br>
-
-
+<br>
+ This project is a great opportunity to practice your JavaScript skills without relying on external libraries. Happy coding! 🛒🌟
 
