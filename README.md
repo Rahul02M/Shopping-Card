@@ -22,20 +22,12 @@
 
 
 4 . Screenshots
-<br>
-DESKTOP 
-![shoping cart](https://github.com/Rahul02M/Shopping-Card/assets/133855195/58e5b8dc-5f74-47c0-8311-320cb3675002)
+
+![shoping cart](https://github.com/Rahul02M/Shopping-Card/assets/133855195/29cc1ce5-fad0-47d1-835d-a7747192b56d)
 
 
-<br>
-<br>
 
-<br>
-<br>
 
-- Mobile
-<br>
-<br>
 
 
 
