@@ -19,7 +19,7 @@
    - Remove Item: Allow users to remove items from the cart.<br>
 <br>
 
--This project is a great opportunity to practice your JavaScript skills without relying on external libraries. Happy coding! 🛒🌟
+- This project is a great opportunity to practice your JavaScript skills without relying on external libraries. Happy coding! 🛒🌟
 
 
 4 . Screenshots
