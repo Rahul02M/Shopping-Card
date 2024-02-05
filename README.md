@@ -24,11 +24,13 @@
 
 4 . Screenshots
 
-Desktop screen
+- Desktop screen
 
 ![shoping cart](https://github.com/Rahul02M/Shopping-Card/assets/133855195/29cc1ce5-fad0-47d1-835d-a7747192b56d)
 
 ![shoping cart 2](https://github.com/Rahul02M/Shopping-Card/assets/133855195/6e7e159b-a09e-4e2b-aa39-2ea4690b54d6)
+
+- Mobile Screen
 
 ![shoping cart mobile](https://github.com/Rahul02M/Shopping-Card/assets/133855195/3858a625-c666-4e29-9eba-67a517853745)
 
